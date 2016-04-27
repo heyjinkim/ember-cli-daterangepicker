@@ -4,7 +4,7 @@ module.exports = {
   normalizeEntityName: function() {},
   
   afterInstall: function() {
-    return this.addPackagesToProject([
+    return this.addBowerPackagesToProject([
       { name: 'bootstrap-daterangepicker' },
       { name: 'ember-cli-moment-shim' },
       { name: 'moment' },
